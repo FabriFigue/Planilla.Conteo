@@ -469,10 +469,10 @@ tr.fila-destacada td.td-rowtotal input{font-size:15px!important;font-weight:900!
 
 <!-- ══════════ MODO COMPACTO ══════════ -->
 <div id="compacto">
-  <div class="cmp-top" id="cmp-top">
-    <div class="cmp-bar">
-      <div class="hdr-logo" style="width:30px;height:30px;font-size:11px;">JS</div>
-      <div class="cmp-title">Carga rápida<small id="cmp-usuario"></small></div>
+  <<div class="cmp-top" id="cmp-top">
+  <div class="cmp-bar">
+    <img src="logo.svg" alt="Jerárquicos Salud" style="height:26px; width:auto; max-width:120px; object-fit:contain; filter:brightness(0) invert(1); margin-right:4px;">
+    <div class="cmp-title">Carga rápida<small id="cmp-usuario"></small></div>
       <span class="cmp-sync ok" id="cmp-sync"><span class="sync-dot"></span><span class="cmp-sync-txt">Sincronizado</span></span>
       <button type="button" class="cmp-icon-btn" onclick="openCmdk()" title="Buscar auxiliar (Ctrl+K)" aria-label="Buscar auxiliar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
       <button type="button" class="cmp-icon-btn" onclick="salirModoCompacto()" title="Volver a la vista completa" aria-label="Volver a la vista completa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></button>
@@ -507,8 +507,10 @@ tr.fila-destacada td.td-rowtotal input{font-size:15px!important;font-weight:900!
 
 <div class="portada-overlay" id="portada-overlay">
   <div class="portada-card">
-    <div class="portada-logo">JS</div>
-    <h1>Estadísticas de Emails</h1>
+  <div style="display:flex; justify-content:center; align-items:center; margin-bottom:18px;">
+    <img src="logo.svg" alt="Jerárquicos Salud" style="width:100%; max-width:230px; height:auto; max-height:48px; object-fit:contain; filter:brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0,0,0,0.3));">
+  </div>
+  <h1>Estadísticas de Emails</h1>
     <p class="portada-sub">Organización Colaboradores · Jerárquicos Salud</p>
 
     <div class="portada-secciones">
@@ -551,17 +553,17 @@ tr.fila-destacada td.td-rowtotal input{font-size:15px!important;font-weight:900!
 </div>
 
 <div class="hdr">
-  <div class="hdr-brand">
-    <a href="index.html" title="Volver a Colaboradores">
-      <div style="display:flex;align-items:center;gap:10px;">
-        <div class="hdr-logo">JS</div>
-        <div>
-          <div class="hdr-title">Estadísticas de Emails</div>
-          <div class="hdr-sub">Organización Colaboradores</div>
-        </div>
+  <<div class="hdr-brand">
+  <a href="index.html" title="Volver a Colaboradores">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <img src="logo.svg" alt="Jerárquicos Salud" style="height:32px; width:auto; max-width:160px; object-fit:contain; filter:brightness(0) invert(1);">
+      <div style="border-left:1px solid rgba(255,255,255,0.25); padding-left:10px;">
+        <div class="hdr-title">Estadísticas de Emails</div>
+        <div class="hdr-sub">Organización Colaboradores</div>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
+</div>
   <a href="index.html" class="hdr-back">← Colaboradores</a>
   <button type="button" class="hdr-info" onclick="mostrarPortada()" title="Ver guía de inicio">ℹ️</button>
 </div>
