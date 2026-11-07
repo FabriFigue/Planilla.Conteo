@@ -534,8 +534,12 @@ tr.fila-destacada td.td-rowtotal input{font-size:15px!important;font-weight:900!
       <input type="text" id="portada-nombre" placeholder="Escribí tu nombre..." onkeydown="if(event.key==='Enter') entrarALaPlanilla()">
     </div>
 
-    <button class="portada-entrar" onclick="entrarALaPlanilla()">Entrar a la planilla →</button>
-
+<div class="portada-snake-container">
+  <button class="portada-snake-btn" onclick="entrarALaPlanilla()">
+    <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+    Entrar a la planilla
+  </button>
+</div>
     <div class="portada-tips">
       <span>🔎 <kbd>Ctrl</kbd>+<kbd>K</kbd> para buscar a alguien al toque</span>
       <span>⠿ Arrastrá las filas para reordenarlas</span>
